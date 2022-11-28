@@ -21,7 +21,8 @@ The poison status effect can build toxicity
 
 
 Stamina
-Stamina remains infinite as usual and is the basis for which signs are cast. Much like vanilla each cast drains the bar entirely. However, you can cast the sign again at half stamina without waiting for the bar to refill but the sign intensity on the next cast will be lowered
+Attacks and dodges do not cost stamina much like the vanilla game while signs cost a full bar of stamina to cast. Geralts innate stamina regeneration is small.
+However, attacking will create stamina regeneration stacks (Heavy attacks will gain more stacks per hit than light attacks to encourage varied attacking) which will boost stamina recovery. These stacks can be removed however if an enemy hits Geralt or if they naturally degrade over a short time period. This will encourage more aggressive playstyles
 
 
 
