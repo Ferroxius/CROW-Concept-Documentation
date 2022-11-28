@@ -97,15 +97,10 @@ Geralt possesses the ability to parry incoming direct attacks from most monsters
 Lock on will focus Geralts attacks to a specific enemy and can be changed between enemies. The camera will also lock onto a specific enemy
 
 ## Combat dynamics
-Passive stamina regeneration is slow while in combat, but landing attacks grant a
-stacking effect that increases stamina regeneration over time. Heavy attacks grant
-more stacks of the buff than fast heavy in order to encourage varied gameplay
-without spamming mindlessly fast attacks. The effect expires after a short delay
-where no targets were hit, and gaining a new stack of the buff refreshes the timer
-on all stacks in effect, so the effect can run indefinitely as long as Geralt
-lands attacks on its target.
+With no stamina cost (or any resource consumption) on fast nor heavy attacks and to ensure a dynamic and varied combat gameplay the default regeneration of the player's stamina is slowed down. Then for each attack the player lands a stacking effect is granted, heavy attacks grant more stacks of the effect than fast attacks. That effects expires one stack at a time after a few seconds, and gives a stacking bonus stamina regeneration.
 
-Taking damage, depending on how much damage was taken, causes Geralt to lose
-some of the stacks (if any) of the effect and refreshes the timer on all remaining
-stacks. When the effect expires one stack is lost, and the timer refreshes itself until
-the next stack expires too, causing stacks to expire one by one.
+Taking damage also causes the player to lose some of its stacks (if any) depending on the severity of the hit.
+
+The bonus stamina regeneration over time gained from landing attacks, plus the somewhat slower (compared to vanilla) passive means that in order to cast signs frequently the player must fight aggressively while avoiding hits.
+
+The short nature of the buff and the fact it stacks but expires only one stack at a time puts even more importance to heavy attacks since they grant multiple stacks at once. Heavy attacks, while harder to land, will offer a way to quickly gain a steady stamina regeneration for a decent amount of time. The fast attacks on the other hand will be perfect to maintain that regeneration. During the times where not getting hit is most important, the effect and its stacks will naturally expire offering another opportunity to land some more heavy attacks
