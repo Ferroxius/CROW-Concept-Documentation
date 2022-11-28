@@ -2,11 +2,12 @@
 > Any relevant concepts or ideas related specifically to COMBAT should go here
 
 - [Combat concepts](#combat-concepts)
-  - [Vitality](#vitality)
-  - [Toxicity](#toxicity)
-  - [Stamina](#stamina)
-  - [Poise](#poise)
-  - [Adrenaline](#adrenaline)
+  - [Resources](#resources)
+    - [Vitality](#vitality)
+    - [Toxicity](#toxicity)
+    - [Stamina](#stamina)
+    - [Poise](#poise)
+    - [Adrenaline](#adrenaline)
   - [Status Effects](#status-effects)
   - [Signs](#signs)
     - [Quen](#quen)
@@ -14,18 +15,21 @@
     - [Aard](#aard)
     - [Igni](#igni)
     - [Yrden](#yrden)
-  - [Dodging](#dodging)
-  - [Parrying](#parrying)
   - [Movement](#movement)
-  - [Lock on](#lock-on)
+    - [Mobility](#mobility)
+    - [Dodging](#dodging)
+    - [Parrying](#parrying)
+    - [Lock on](#lock-on)
+  - [Combat dynamics](#combat-dynamics)
 
 ---
-## Vitality
+
+## Resources
+### Vitality
 Is at a static value and can only be boosted temporarily or through items like mutagens
 Geralt has passive albeit slow vitality regeneration which can be boosted through consuming food and drink as well as potions like swallow
 
----
-## Toxicity
+### Toxicity
 Toxicity is still applied as a static amount to your total toxicity value. However, in combat your toxicity decrease per second is minimal unless your adrenaline is high giving you incentive to keep it high
 
 Potions add toxicity, however they have a “metabolism period”, during this brief period drinking any more potions will add an additional amount of toxicity on top of the toxicity added by the next potion. This is to prevent spam drinking multiple potions and decoctions, be considerate now
@@ -34,24 +38,20 @@ If you add more toxicity when already near full toxicity then any toxicity added
 
 The poison status effect can build toxicity
 
----
-## Stamina
+### Stamina
 Stamina remains infinite as usual and is the basis for which signs are cast. Much like vanilla each cast drains the bar entirely. However, you can cast the sign again at half stamina without waiting for the bar to refill but the sign intensity on the next cast will be lowered
 
----
-## Poise
+### Poise
 A special resource that replaces the exp bar and governs parrying. Every time you perform a normal parry you will lose some poise. However, if you parry just before an enemy strikes you can “perfect parry” them which will not cost any poise
 If your poise drops to zero you will become poisebroken and will be briefly stunned, however if you continue to perfect parry you will never be poisebroken even if you are out of poise. Poise will begin to regenerate if Geralt is not attacking or dodging or it can regenerate quickly if Geralt holds down the parry key
 
 Enemies too have poise and are susceptible to being poisebroken, if they are poisebroken Geralt can perform a finisher instantly killing them. On larger enemies though where this is not possible it simply takes a chunk of their health away
 Humans and Monsters have varying degrees of poise and health, typically enemies with low health will have high poise and enemies with high health will have low poise. Enemies with high poise though will typically be able to parry your attacks so the focus will shift depending on your enemy
 
----
-## Adrenaline
+### Adrenaline
 A resource that acts as a passive booster to your other values. Higher adrenaline will result in higher toxicity degen, higher health regen and higher stamina regen
 Adrenaline doesn’t naturally build on its own and can only be built up by attacking and doging (Perfect dodges award more adrenaline). However if you remain inactive for a time period adrenaline will start to drop back down to zero and you will lose your boosts
 
----
 ## Status Effects
 Geralt can be inflicted with various status effects that hinder him in combat. The two main ones of focus are bleed and poison
 
@@ -76,26 +76,36 @@ Can cause knockback/knockdown on enemies. Particularly useful on flying creature
 ### Igni
 Can easily set enemies on fire leading them vulnerable to several hits. Good against small groups or single targets to open them up and whittle them down
 
-
-
 ### Yrden
 Similar in design to EE, enemies that stay within the normal Yrden circle will become snared
 Warding Glyph in design to EE zaps enemies if they try to hit you and can also destroy projectiles before they hit you
 
-
 ---
-## Dodging
+## Movement
+### Mobility
+
+Geralts mobility will be sharply increased to give him better means of getting around in a fight. Enemies though can also be fast
+
+### Dodging
 Dodging in the base game is a bit too easy since the i-frames are a bit too generous
 As such timing will now need to be employed and is designed around dodges and “perfect dodges”. If you dodge just before an enemy hits you, you will take no damage as you have perfectly dodged. If you dodge any time before or after this you will take chip damage which is less than if you didn’t dodge at all but is still important to factor
 
----
-## Parrying
+### Parrying
 Geralt possesses the ability to parry incoming direct attacks from most monsters and all humans. He cannot parry elemental attacks or certain unparryable attacks in which case he should attempt to dodge these. These unparryable attacks will be visually and audibly shown so you know when they occur
 
----
-## Movement
-Geralts mobility will be sharply increased to give him better means of getting around in a fight. Enemies though can also be fast
-
----
-## Lock on
+### Lock on
 Lock on will focus Geralts attacks to a specific enemy and can be changed between enemies. The camera will also lock onto a specific enemy
+
+## Combat dynamics
+Passive stamina regeneration is slow while in combat, but landing attacks grant a
+stacking effect that increases stamina regeneration over time. Heavy attacks grant
+more stacks of the buff than fast heavy in order to encourage varied gameplay
+without spamming mindlessly fast attacks. The effect expires after a short delay
+where no targets were hit, and gaining a new stack of the buff refreshes the timer
+on all stacks in effect, so the effect can run indefinitely as long as Geralt
+lands attacks on its target.
+
+Taking damage, depending on how much damage was taken, causes Geralt to lose
+some of the stacks (if any) of the effect and refreshes the timer on all remaining
+stacks. When the effect expires one stack is lost, and the timer refreshes itself until
+the next stack expires too, causing stacks to expire one by one.
