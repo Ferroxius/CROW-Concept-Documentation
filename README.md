@@ -16,3 +16,4 @@ If you want to discuss the project more directly then I suggest you discuss it w
  - [Exploration](CROW%20Exploration%20Concepts.md)
  - [Items](CROW%20Item%20Concepts.md)
  - [Skills](CROW%20Skills%20Concepts.md)
+ - [Technical Details](CROW%20
