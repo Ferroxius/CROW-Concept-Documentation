@@ -2,7 +2,8 @@
 > Any relevant concepts or ideas related specifically to EXPLORATION should go here
 
 
-As with EE, levels are removed entirely meaning enemies have static values and are not dependant on level scaling to determine how strong or weak they are. A drowner in WO will still be as strong as one in Skellige
+Levels are significantly less important now in determining how strong or weak Geralt is. Using a scaling mod, Geralts gear and stats scale up or down to an enemy making the challenge always consistent. This means you can go anywhere and do anything you wish without being level gated
+This will mean that the level indicator in your menus does not serve much purpose outside of a visual indication of your progression throughout the game
 
 Weight is changed to no longer be an accumulation of all the items Geralt carries but rather an accumulation of the gear currently equipped on Geralt, similar in style to the soulsbourne series. This eliminates the need for inventory management and instead you only need to consider what Geralt should be equipped with
 
