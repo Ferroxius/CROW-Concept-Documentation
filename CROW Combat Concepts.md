@@ -9,18 +9,21 @@
     - [Poise](#poise)
     - [Adrenaline](#adrenaline)
   - [Status Effects](#status-effects)
-  - [Signs](#signs)
-    - [Quen](#quen)
-    - [Axii](#axii)
-    - [Aard](#aard)
-    - [Igni](#igni)
-    - [Yrden](#yrden)
+  - [Signs \& Skills](#signs--skills)
+    - [Quen (Bear)](#quen-bear)
+    - [Axii (Viper)](#axii-viper)
+    - [Aard (Cat)](#aard-cat)
+    - [Igni (Wolf)](#igni-wolf)
+    - [Yrden (Manticore)](#yrden-manticore)
+    - [Rend](#rend)
   - [Movement](#movement)
     - [Mobility](#mobility)
     - [Dodging](#dodging)
     - [Parrying](#parrying)
     - [Lock on](#lock-on)
   - [Combat dynamics](#combat-dynamics)
+    - [Enemy behaviour](#enemy-behaviour)
+      - [Parries \& counter-attacks](#parries--counter-attacks)
 
 ---
 
@@ -46,7 +49,11 @@ A special resource that replaces the exp bar and governs parrying. Every time yo
 If your poise drops to zero you will become poisebroken and will be briefly stunned, however if you continue to perfect parry you will never be poisebroken even if you are out of poise. Poise will begin to regenerate if Geralt is not attacking or dodging or it can regenerate quickly if Geralt holds down the parry key
 
 Enemies too have poise and are susceptible to being poisebroken, if they are poisebroken Geralt can perform a finisher instantly killing them. On larger enemies though where this is not possible it simply takes a chunk of their health away
-Humans and Monsters have varying degrees of poise and health, typically enemies with low health will have high poise and enemies with high health will have low poise. Enemies with high poise though will typically be able to parry your attacks so the focus will shift depending on your enemy
+Humans and Monsters have varying degrees of poise and health, typically enemies with low health will have high poise and enemies with high health will have low poise. Enemies with high poise though will typically be able to parry your attacks so the focus will shift depending on your enemy.
+
+Enemies do not have any hit animation while their poise is above a certain threshold. But once poise is under the threshold every hit they receive causes a stagger.
+
+With that in mind poise will generate their poise at a fast pace if the enemy is not hit for a certain period of time.
 
 ### Adrenaline
 A resource that acts as a passive booster to your other values. Higher adrenaline will result in higher toxicity degen, higher health regen and higher stamina regen
@@ -60,25 +67,41 @@ Bleed stacks up to 10 and can be applied through a number of means. This can qui
 Poison stacks up to 10 and while it has a small amount of health damage it primarily serves to fill your toxicity meter messing with your toxicity. If it goes over your toxicity limit it will start dealing tick damage to you
 
 ---
-## Signs
-### Quen
+## Signs & Skills
+> Each sign is linked to a witcher school, with griffin being a combination of all of them
+### Quen (Bear)
+> Elemental resistance & physical resistance with alt-quen.
+
 Instead of serving as a means of protection from physical attacks, quen now serves as a form of physical protection against elemental attacks e.g. lifedrain, fire attacks, ice attacks. Any form of elemental damage is shielded when passive quen is activated. However, quen does nothing to protect against physical attacks and as such getting hit by a physical attack will deal full damage to you and break the shield.
 Active quen shield is the opposite in that it defends well against physical attacks but less so against elemental attacks. It also hampers your movement meaning you won’t be as mobile and you cannot do anything else while holding it
 Quen can also be used to counter opponents by quick casting it just before an opponent strikes. This doesn’t deal any damage but can apply knockback/knockdown to the enemy
 
-### Axii
+### Axii (Viper)
+> long duration CC
+
+
 Normal Axii like normal stuns an enemy for a period of time
 Puppet functions like normal except your movement speed is not hampered when casting as to allow you to move and not get hit by an enemy interrupting the cast
 
-### Aard
+### Aard (Cat)
+> Short CC and slow/freeze
+
 Can cause knockback/knockdown on enemies. Particularly useful on flying creatures
 
-### Igni
+### Igni (Wolf)
+> Short duration CC and armor melting
+
 Can easily set enemies on fire leading them vulnerable to several hits. Good against small groups or single targets to open them up and whittle them down
 
-### Yrden
+### Yrden (Manticore)
+> Long duration but weak CC, projectile protection with alt-yrden.
+
 Similar in design to EE, enemies that stay within the normal Yrden circle will become snared
 Warding Glyph in design to EE zaps enemies if they try to hit you and can also destroy projectiles before they hit you
+
+### Rend
+Not fully charged Rend deals very little amounts of damage, but useful for small stagger effect. Basically serves for interrupting enemy attacks. For example the drowner jumps at me, and if I time my Rend correctly, I'll interrupt his attack, but deal very little damage. Fully charged rend however, drops enemy shields and deals a good amount of poise damage (maybe like 50%). And the damage is equivalent to heavy attack or a bit more 
+
 
 ---
 ## Movement
@@ -104,3 +127,16 @@ Taking damage also causes the player to lose some of its stacks (if any) dependi
 The bonus stamina regeneration over time gained from landing attacks, plus the somewhat slower (compared to vanilla) passive means that in order to cast signs frequently the player must fight aggressively while avoiding hits.
 
 The short nature of the buff and the fact it stacks but expires only one stack at a time puts even more importance to heavy attacks since they grant multiple stacks at once. Heavy attacks, while harder to land, will offer a way to quickly gain a steady stamina regeneration for a decent amount of time. The fast attacks on the other hand will be perfect to maintain that regeneration. During the times where not getting hit is most important, the effect and its stacks will naturally expire offering another opportunity to land some more heavy attacks
+
+### Enemy behaviour
+#### Parries & counter-attacks
+Enemy parries and counter-attacks depend on the poise they have. Enemies are playing under the same rules as the player, the higher their poise the quicker they'll be to counterattack after receiving a series of hits.
+
+While under the parry state, enemies transfer all of the damages they take to their poise, causing the player to deal 100% poise damage during that time. However hitting a parrying enemy comes at a cost: The higher their health the more poise you lose per attack.
+
+- consecutive attacks from the player increase the chances for the enemies to enter the parrying state.
+- consecutive dodges from the player increase the chances for the enemies to enter a rage state with increased attack & movement speed and a slight poise regeneration. The rage build-up is divided by the amount of enemies so scale evenly in large groups of enemies.
+
+Then to continue on the philosophy of rewarding good gameplay:
+- successful parries reduce the chances for the enemies to enter the parrying state
+- successful dodges reduce the rage build-up from the enemies
