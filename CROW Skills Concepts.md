@@ -2,10 +2,10 @@
 > Any relevant concepts or ideas related specifically to SKILLS should go here
 
 
-> Currently planned syste,
+###Currently planned syste,
 In the style of Cyberpunk 2077, all skills can be unlocked and active at once. Each skill tree (Combat, Signs, Alchemy and General) has its own pool of skill points and those points are acquired by performing actions related to those trees e.g. performing attacks/dodges contribute to the Combat tree while casting signs contribute to the Signs tree
 
-> Alternative system
+###Alternative system
 In the style of W1, perk points are split into 3 different types: Bronze, silver and gold. These points are then invested into the progression of a skills tier meaning e.g. for a 5 tier skill: Tier 1+2 is bronze, tier 3+4 is silver and tier 5 is gold
  - 1 bronze point is acquired every time you level up
  - 1 silver point is acquired every time you complete a main story quest
