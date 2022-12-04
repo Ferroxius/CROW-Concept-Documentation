@@ -16,6 +16,10 @@ To balance the rate of point acquisiton, the exp gain will follow a logarithmic 
  - increase in rarity on the points in towards mid game
  - no increase in rarity from mid to end-game
 
+### Empowering Skill Slots
+All skills will be active, however you can place a skill into a skill slot and this will boost the skill stats wise. This can be further enhanced by using the right colour mutagen with the skills to boost it further
+
+### Mutagen Skill Slots
 The skill slots though will still have a purpose in the form of mutagens. Mutagens can be places in each skill slot and can contribute buffs to Geralt. The normal mutagen slots are for craftable Archmutagens, if the equipped mutagens match the family that the archmutagen is from when equipped it will buff those mutagens while also providing its own strong buffs
 
 Mutations will serve as a means to improve the synergy between your sword, alchemy and sign skills meaning you can effectively combine them to create incredibly powerful moves
