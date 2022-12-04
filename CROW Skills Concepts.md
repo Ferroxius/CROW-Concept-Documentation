@@ -10,6 +10,8 @@ In the style of W1, perk points are split into 3 different types: Bronze, silver
  - 1 bronze point is acquired every time you level up
  - 1 silver point is acquired every time you complete a main story quest
  - 1 gold point is acquired every time you reach a level milestone e.g. 5, 10, etc.
+
+
 To balance the rate of point acquisiton, the exp gain will follow a logarithmic scaling which:
  - provides lots of bronze points in early game
  - provides some (but not all) gold points in early game
