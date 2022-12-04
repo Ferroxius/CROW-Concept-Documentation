@@ -2,7 +2,7 @@
 > Any relevant concepts or ideas related specifically to SKILLS should go here
 
 
-### Currently planned syste,
+### Currently planned system
 In the style of Cyberpunk 2077, all skills can be unlocked and active at once. Each skill tree (Combat, Signs, Alchemy and General) has its own pool of skill points and those points are acquired by performing actions related to those trees e.g. performing attacks/dodges contribute to the Combat tree while casting signs contribute to the Signs tree
 
 ### Alternative system
