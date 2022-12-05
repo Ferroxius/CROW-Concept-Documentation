@@ -24,4 +24,5 @@ All skills will be active, however you can place a skill into a skill slot and t
 ### Mutagen Skill Slots
 The skill slots though will still have a purpose in the form of mutagens. Mutagens can be places in each skill slot and can contribute buffs to Geralt. The normal mutagen slots are for craftable Archmutagens, if the equipped mutagens match the family that the archmutagen is from when equipped it will buff those mutagens while also providing its own strong buffs
 
+### Mutations
 Mutations will serve as a means to improve the synergy between your sword, alchemy and sign skills meaning you can effectively combine them to create incredibly powerful moves
