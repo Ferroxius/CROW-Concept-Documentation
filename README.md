@@ -9,6 +9,9 @@ Anyone can contribute to this concept through making a push request to a relevan
 
 If you want to discuss the project more directly then I suggest you discuss it with me or Aeltoth on the Wolven Workshop discord server (Link: https://discord.gg/NdZEAdgx)
 
+### Release data
+We have no ETA on when this mod will come to fruition. The current plan is to wait for the Next Gen Update to arrive and then wait for the updated wolvenkit to arrive. How long that then takes to create the mod will be dependant on how many contributions we have as well as how long it will take for dependency mods to update
+
 # Chapters
  - [Alchemy](CROW%20Alchemy%20Concepts.md)
  - [Combat](CROW%20Combat%20Concepts.md)
