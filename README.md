@@ -1,4 +1,5 @@
 # CROW-Concept-Documentation
+![CROW Concept Thumbnail](https://user-images.githubusercontent.com/88400328/206307757-426a0b69-a4cc-433d-ba75-461eda340110.jpg)
 This repository serves as a collective idea centre for all ideas, concepts and suggestions for the CROW overhaul project
 
 The CROW project for those unfamilliar is a proposed overhaul of The Witcher 3 that aims to provide new more in-depth systems for the game while retaining the game's more simplistic style
@@ -20,3 +21,4 @@ We have no ETA on when this mod will come to fruition. The current plan is to wa
  - [Items](CROW%20Item%20Concepts.md)
  - [Skills](CROW%20Skills%20Concepts.md)
  - [Technical Details](CROW%20Technical%20Specifications.md)
+
