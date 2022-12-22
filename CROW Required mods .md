@@ -6,7 +6,7 @@
 -- Word
  - Skills Always Active
 
- - Geralt Level Scales
+ - Geralt Level Scales - Updated for NG
 
  - Primer (Very light version of it)
 
